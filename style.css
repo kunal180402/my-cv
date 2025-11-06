@@ -1,0 +1,50 @@
+body {
+  font-family: 'Inter', sans-serif;
+  margin: 0;
+  background: #f5f5f5;
+  color: #333;
+}
+
+header {
+  background: #222;
+  color: white;
+  padding: 1.5rem;
+  text-align: left; 
+}
+
+.header-top {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: left; 
+  gap: 30px; 
+}
+
+.header-top img {
+  border-radius: 30%; 
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+section {
+  background: white;
+  margin: 20px auto;
+  max-width: 800px;
+  padding: 2rem;
+  border-radius: 50px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+ti{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+footer {
+  text-align: center;
+  color: #777;
+  padding: 0rem;
+}
